@@ -7717,8 +7717,7 @@ main {
   main .service-card {
     padding-top: 11px;
     padding-bottom: 11px; }
-    main .service-card:first-child, main .service-card:nth-child(3) {
-      border-right: 1px solid #f3f3f3; }
+  
       @media (max-width: 991px) {
         main .service-card:first-child, main .service-card:nth-child(3) {
           border-right: 0; } }
