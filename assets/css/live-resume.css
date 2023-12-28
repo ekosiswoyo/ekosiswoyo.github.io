@@ -7629,7 +7629,7 @@ main {
 main {
   padding: 36px 60px 24px;
   background-color: #ffffff;
-  border-top-right-radius: 10px; }
+  border-radius: 10px; }
   @media (max-width: 767px) {
     main {
       padding-left: 20px;
