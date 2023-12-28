@@ -17,6 +17,15 @@
     <header>
         <button class="btn btn-white btn-share ml-auto mr-3 ml-md-0 mr-md-auto"><a href="index.html">
             ENGLISH</button></a>
+        <!-- <nav class="collapsible-nav" id="collapsible-nav">
+            <a href="index.html" class="nav-link active">HOME</a>
+            <a href="resume.html" class="nav-link">RESUME</a>
+            <a href="portfolio.html" class="nav-link">PORTFOLIO</a>
+            <a href="blog.html" class="nav-link">BLOG</a>
+            <a href="contact.html" class="nav-link">CONTACT</a>
+        </nav>
+        <button class="btn btn-menu-toggle btn-white rounded-circle" data-toggle="collapsible-nav"
+            data-target="collapsible-nav"><img src="assets/images/hamburger.svg" alt="hamburger"></button> -->
     </header>
     <div class="content-wrapper">
         <aside>
@@ -28,9 +37,23 @@
                 <span class="badge badge-white badge-pill profile-designation">Fullstack Developer</span>
             </div>
             <nav class="social-links">
+                <!-- <a href="https://www.facebook.com/eko.siswoyo26" class="social-link"><i class="fab fa-facebook-f"></i></a> -->
                 <a href="https://github.com/ekosiswoyo" class="social-link"><i class="fab fa-github"></i></a>
                 <a href="https://instagram.com/ekoosiswoyo" class="social-link"><i class="fab fa-instagram"></i></a>
+                <!-- <a href="https://wa.me/6285712386283" class="social-link"><i class="fab fa-whatsapp"></i></a> -->
             </nav>
+            <!-- <div class="widget">
+                <h5 class="widget-title">informasi pribadi</h5>
+                <div class="widget-content">
+                    <p>TANGGAL LAHIR : Pekalongan, 26 Maret 1998</p>
+                    <p>WEBSITE : https://ekosiswoyo.github.io/</p>
+                    <p>HP : +62 857 1238 6283</p>
+                    <p>MAIL : ekoputra351@gmail.com</p>
+                    <p>Lokasi : Ds. Sragi, Pekalongan, Jawa Tengah</p>
+                    <a href="https://drive.google.com/drive/folders/1sBHz4PACKPe82uEWgYmxN8_JkiUaafz1?usp=sharing"><button class="btn btn-download-cv btn-primary rounded-pill"> <img src="assets/images/download.svg" alt="download"
+                        class="btn-img">UNDUH CV </button></a>
+                </div>
+            </div> -->
             <div class="widget card">
                 <div class="card-body">
                     <div class="widget-content">
@@ -66,7 +89,19 @@
                                 <span class="badge badge-primary">2015-2017</span>
                                 <h6 class="time-line-item-title">Politeknik Negeri Bandung</h6>
                                 <p class="time-line-item-subtitle">Teknik Informatika </p>
+                                <!-- <p class="time-line-item-content">Diploma II</p> -->
                             </li>
+                            <!-- <li class="time-line-item">
+                                <span class="badge badge-primary">2012-2015</span>
+                                <h6 class="time-line-item-title">SMK 1 Sragi</h6>
+                                <p class="time-line-item-subtitle">Teknik Komputer Jaringan</p>
+                               
+                            </li>
+                            <li class="time-line-item">
+                                <span class="badge badge-primary">2009 - 2012</span>
+                                <h6 class="time-line-item-title">SMP 1 Sragi</h6>
+                                
+                            </li> -->
                         </ul>
                     </div>
                     <div class="col-lg-6">
@@ -96,10 +131,18 @@
                                 <span class="badge badge-primary">2016 - 2017</span>
                                 <h6 class="time-line-item-title">Programmer</h6>
                                 <p class="time-line-item-subtitle">Freelancer</p>
+                                <!-- <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
+                                    vitae, interdum sed
+                                    tortor.
+                                </p> -->
                             </li>  <li class="time-line-item">
                                 <span class="badge badge-primary">2016 - 2017</span>
                                 <h6 class="time-line-item-title">Teknisi</h6>
                                 <p class="time-line-item-subtitle">Lubada Jaya</p>
+                                <!-- <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
+                                    vitae, interdum sed
+                                    tortor.
+                                </p> -->
                             </li>
                         </ul>
                     </div>
@@ -194,6 +237,45 @@
                 </div>
             </section>
 
+            <!-- <section class="clients-section">
+                <h6 class="section-subtitle">WHAT I DO</h6>
+                <h2 class="section-title">SKILL</h2>
+                <div class="client-logos-wrapper">
+                    <div class="client-logo"><img src="assets/images/laravel.jpg" alt="logo" class="w-100"></div>
+                    <div class="client-logo"><img src="assets/images/Clients_2.svg" alt="logo" class="w-100"></div>
+                    <div class="client-logo"><img src="assets/images/Clients_3.svg" alt="logo" class="w-100"></div>
+                    <div class="client-logo"><img src="assets/images/Clients_4.svg" alt="logo" class="w-100"></div>
+                </div>
+            </section> -->
+
+            <!-- <section class="achievements-section">
+                <h6 class="section-subtitle">WHAT I DO</h6>
+                <h2 class="section-title">ACHIEVEMENTS</h2>
+                <div class="achievement-cards-wrapper">
+                    <div class="media achievement-card">
+                        <img src="assets/images/puzzle.svg" alt="puzzle" class="achievement-card-icon">
+                        <div class="media-body">
+                            <h4 class="achievement-card-title">550+</h4>
+                            <p class="achievement-card-description">COMPLETED PROJECTS</p>
+                        </div>
+                    </div>
+                    <div class="media achievement-card">
+                        <img src="assets/images/team.svg" alt="puzzle" class="achievement-card-icon">
+                        <div class="media-body">
+                            <h4 class="achievement-card-title">23K</h4>
+                            <p class="achievement-card-description">HAPPY CLIENTS</p>
+                        </div>
+                    </div>
+                    <div class="media achievement-card">
+                        <img src="assets/images/trophy.svg" alt="puzzle" class="achievement-card-icon">
+                        <div class="media-body">
+                            <h4 class="achievement-card-title">55</h4>
+                            <p class="achievement-card-description">AWARDS RECIEVED</p>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+
             <section class="resume-section">
                 <div class="row">
                     <div class="col-lg-6">
@@ -231,54 +313,101 @@
                             <li class="time-line-item">
                                 <h6 class="time-line-item-title">Virtual Account Engine API Bank Syariah Indonesia</h6>
                                 <p class="time-line-item-subtitle">Laravel</p>
+                                <!-- <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
+                                    vitae, interdum sed
+                                    tortor.</p> -->
                             </li>
                             <li class="time-line-item">
                                 <h6 class="time-line-item-title">New Cash System Management</h6>
                                 <p class="time-line-item-subtitle">Laravel & Zend Framework</p>
+                                <!-- <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
+                                    vitae, interdum sed
+                                    tortor.</p> -->
                             </li>
                             <li class="time-line-item">
                                 <h6 class="time-line-item-title">360 Cash Management System</h6>
                                 <p class="time-line-item-subtitle">Zend Framework</p>
+                                <!-- <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
+                                    vitae, interdum sed
+                                    tortor.</p> -->
                             </li>
                             <li class="time-line-item">
                                 <h6 class="time-line-item-title">Integrasi Data Pentaho</h6>
                                 <p class="time-line-item-subtitle">IBM DB2 ke Oracle</p>
+                                <!-- <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
+                                    vitae, interdum sed
+                                    tortor.</p> -->
                             </li>
                             <li class="time-line-item">
                                 <h6 class="time-line-item-title">Aplikasi Kasir</h6>
                                 <p class="time-line-item-subtitle">Visual Basic Excel</p>
+                                <!-- <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
+                                    vitae, interdum sed
+                                    tortor.</p> -->
                             </li>
                             <li class="time-line-item">
                                 <h6 class="time-line-item-title">Website Profil perusahaan </h6>
                                 <p class="time-line-item-subtitle">Laravel, Native, Wordpress</p>
+                                <!-- <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
+                                    vitae, interdum sed
+                                    tortor.
+                                </p> -->
                             </li>
                             <li class="time-line-item">
                                 <h6 class="time-line-item-title">Website Sekolah </h6>
                                 <p class="time-line-item-subtitle">Laravel</p>
+                                <!-- <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
+                                    vitae, interdum sed
+                                    tortor.
+                                </p> -->
                             </li>  <li class="time-line-item">
                                 <h6 class="time-line-item-title">SIG Tentang Pasar</h6>
                                 <p class="time-line-item-subtitle">PHP Native Dengan API Google Maps</p>
+                                <!-- <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
+                                    vitae, interdum sed
+                                    tortor.
+                                </p> -->
                             </li>
                             <li class="time-line-item">
                                 <h6 class="time-line-item-title">SIG Tentang Objek Wisata </h6>
                                 <p class="time-line-item-subtitle">PHP Native & Java Mobile Dengan API Google Maps</p>
+                                <!-- <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
+                                    vitae, interdum sed
+                                    tortor.
+                                </p> -->
                             </li>
                             
                             <li class="time-line-item">
                                 <h6 class="time-line-item-title">e-Raport </h6>
                                 <p class="time-line-item-subtitle">PHP Native</p>
+                                <!-- <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
+                                    vitae, interdum sed
+                                    tortor.
+                                </p> -->
                             </li>
                             <li class="time-line-item">
                                 <h6 class="time-line-item-title">e-Recruitment Karyawan</h6>
                                 <p class="time-line-item-subtitle">Laravel</p>
+                                <!-- <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
+                                    vitae, interdum sed
+                                    tortor.
+                                </p> -->
                             </li>
                             <li class="time-line-item">
                                 <h6 class="time-line-item-title">Manajemen Tugas</h6>
                                 <p class="time-line-item-subtitle">Laravel</p>
+                                <!-- <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
+                                    vitae, interdum sed
+                                    tortor.
+                                </p> -->
                             </li>
                             <li class="time-line-item">
                                 <h6 class="time-line-item-title">Stok Gudang</h6>
                                 <p class="time-line-item-subtitle">Laravel</p>
+                                <!-- <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
+                                    vitae, interdum sed
+                                    tortor.
+                                </p> -->
                             </li>
                             
                         </ul>
@@ -349,6 +478,47 @@
 
             </section>
 
+            <!-- <section class="contact-section">
+                <h2 class="section-title">HUBUNGI SAYA</h2>
+                <p class="mb-4">Jika anda teratik dengan hasil kerja saya, atau pekerjaan saya silahkan hubungi saya.</p>
+                
+                <div class="contact-cards-wrapper">
+                    <div class="contact-card">
+                        <h6 class="contact-card-title">HUBUNGI SAYA</h6>
+                        <p class="contact-card-content">+62 857 1238 6283</p>
+                    </div>
+                    <div class="contact-card">
+                        <h6 class="contact-card-title">EMAIL SAYA</h6>
+                        <p class="contact-card-content">ekoputra351@gmail.com</p>
+                    </div>
+                </div> -->
+
+                <!-- <form action="#!" class="contact-form">
+                    <div class="form-group form-group-name">
+                      <label for="name" class="sr-only">Name</label>
+                      <input type="text" name="name" id="name" class="form-control" placeholder="NAME">
+                    </div>
+                    <div class="form-group form-group-email">
+                        <label for="email" class="sr-only">Email</label>
+                        <input type="email" name="email" id="email" class="form-control" placeholder="EMAIL">
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="sr-only">Message</label>
+                        <textarea name="message" id="message" class="form-control" placeholder="MESSAGE" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary form-submit-btn">SEND MESSAGE</button>
+                </form> -->
+                <!-- <a href="https://wa.me/6285712386283"><button type="submit" class="btn btn-primary form-submit-btn">KIRIM PESAN</button></a>
+
+            </section>
+            <section class="location-section">
+                <h5 class="section-title">LOKASI SAYA</h5>
+
+                <div class="map-wrapper embed-responsive embed-responsive-16by9"">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.6996566304224!2d109.5719422640326!3d-6.926459144995452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e70275405aedca9%3A0xe9d93d206584d403!2sTegalontar%2C%20Kec.%20Sragi%2C%20Pekalongan%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1592294596071!5m2!1sid!2sid" idth="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" class="embed-responsive-item"></iframe>
+                </div>
+            </section>
+             -->
             <footer>CV @ <a href="https://www.instagram.com/ekoosiswoyo" target="_blank" rel="noopener noreferrer">Eko Siswoyo</a>. Terakhir di Update Desember 2023</footer>
         </main>
     </div>
