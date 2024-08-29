@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="25px" viewBox="0 0 30 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>half-circle copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Personal-1-mixed" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1331.181818, -50.181818)" fill="#6C6CE5" id="hero">
+            <g transform="translate(290.181818, 0.181818)">
+                <g id="shapes" transform="translate(77.181818, 42.181818)">
+                    <g id="half-circle-copy" transform="translate(976.181818, 23.181818) rotate(210.181818) translate(-976.181818, -23.181818) translate(960.181818, 15.181818)">
+                        <path d="M8,-8 C13.7170859,-8 18.9989499,-4.9504 21.8566928,0 C24.7144357,4.9504 24.7144357,11.0496 21.8566928,16 C18.9989499,20.9504 13.7170859,24 8,24 L8,20.8 C12.5730287,20.8 16.7988399,18.36 19.0853543,14.4 C21.3718686,10.44 21.3718686,5.56 19.0853543,1.6 C16.7988399,-2.36 12.5730287,-4.8 8,-4.8 L8,-8 Z" id="Segment-1" transform="translate(16.181818, 8.181818) rotate(-90.181818) translate(-16.181818, -8.181818) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
