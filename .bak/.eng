@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Curriculum Vitae :: Eko Siswoyo</title>
+    <link href="https://fonts.googleapis.com/css?family=Mukta:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/vendors/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/live-resume.css">
+</head>
+
+<body>
+    <header>
+        <button class="btn btn-white btn-share ml-auto mr-3 ml-md-0 mr-md-auto"><a href="id.html">
+            INDONESIA</button></a>
+    </header>
+    <div class="content-wrapper">
+        <aside>
+            <div class="profile-img-wrapper">
+                <img src="assets/images/prof.JPG" alt="profile">
+            </div>
+            <h1 class="profile-name">Eko Siswoyo</h1>
+            <div class="text-center">
+                <span class="badge badge-white badge-pill profile-designation">Fullstack Developer</span>
+            </div>
+            <nav class="social-links">
+                <a href="https://github.com/ekosiswoyo" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://instagram.com/ekoosiswoyo" class="social-link"><i class="fab fa-instagram"></i></a>
+            </nav>
+           
+            <div class="widget card">
+                <div class="card-body">
+                    <div class="widget-content">
+                        <h5 class="widget-title card-title">LANGUAGES</h5>
+                        <p>English : native</p>
+                    </div>
+                </div>
+            </div>
+            <div class="widget card">
+                <div class="card-body">
+                    <div class="widget-content">
+                        <h5 class="widget-title card-title">INTERESTS</h5>
+                        <p>Games</p>
+                        <p>Basketball</p>
+                        <p>Movie</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <main>
+            <section class="intro-section">
+                <h2 class="section-title">Hello, </h2>
+                <p>I'm Website Fullstack Developer from Pekalongan, Central Java, Indonesia. I can build a website with Framework such as Laravel , Codeigniter , Wordpress , Zend Framework, Native. I can build your website so that functionally and user friendly in desktop or mobile but at the same time attractive. I have created website or information system for famous companies and school. The last project I worked on was creating a Virtual Account Engine API for Bank Syariah Indonesia (BSI), this API is used for various channels such as ATM, Mobile Banking, Teller, etc. </p>
+                <a href="#!" class="btn btn-primary btn-hire-me">HIRE ME</a>
+            </section>
+            <section class="resume-section">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h6 class="section-subtitle">RESUME</h6>
+                        <h2 class="section-title">EDUCATION</h2>
+                        <ul class="time-line">
+                            <li class="time-line-item">
+                                <span class="badge badge-primary">2015-2017</span>
+                                <h6 class="time-line-item-title">Politeknik Negeri Bandung</h6>
+                                <p class="time-line-item-subtitle">Informatic Engineering </p>
+                                <!-- <p class="time-line-item-content">Diploma II</p> -->
+                            </li>
+                            <!-- <li class="time-line-item">
+                                <span class="badge badge-primary">2012-2015</span>
+                                <h6 class="time-line-item-title">SMK 1 Sragi</h6>
+                                <p class="time-line-item-subtitle">Computer and Network Engineering</p>
+                               
+                            </li>
+                            <li class="time-line-item">
+                                <span class="badge badge-primary">2009 - 2012</span>
+                                <h6 class="time-line-item-title">SMP 1 Sragi</h6>
+                                
+                            </li> -->
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <h6 class="section-subtitle">RESUME</h6>
+                        <h2 class="section-title">Experience</h2>
+                        <ul class="time-line">
+                            <li class="time-line-item">
+                                <span class="badge badge-primary">2022 - Now</span>
+                                <h6 class="time-line-item-title">Programmer</h6>
+                                <p class="time-line-item-subtitle">PT. Square Gate One</p>
+                                <p class="time-line-item-content">Develop API Virtual Account Engine for Bank Syariah Indonesia, Developer Cash Management System for Bank Syariah Indonesia.</p>
+                            </li>
+                            <li class="time-line-item">
+                                <span class="badge badge-primary">2017 - 2022</span>
+                                <h6 class="time-line-item-title">Web Programmer</h6>
+                                <p class="time-line-item-subtitle">PT. BPR Mandiri Artha Abadi</p>
+                                <p class="time-line-item-content">Develop various applications for Internal needs that are used to help other Departments Work.</p>
+                            </li>
+                            <li class="time-line-item">
+                                <span class="badge badge-primary">2017</span>
+                                <h6 class="time-line-item-title">IT Engineer</h6>
+                                <p class="time-line-item-subtitle">PT. Graha Karya Informasi</p>
+                                <p class="time-line-item-content">Maintenance PC at Jiwasraya Pekalongan.
+                                </p>
+                            </li>
+                            <li class="time-line-item">
+                                <span class="badge badge-primary">2016 - 2017</span>
+                                <h6 class="time-line-item-title">Programmer</h6>
+                                <p class="time-line-item-subtitle">Freelancer</p>
+                                <!-- <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
+                                    vitae, interdum sed
+                                    tortor.
+                                </p> -->
+                            </li>  <li class="time-line-item">
+                                <span class="badge badge-primary">2016 - 2017</span>
+                                <h6 class="time-line-item-title">Technician</h6>
+                                <p class="time-line-item-subtitle">Lubada Jaya</p>
+                                <!-- <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
+                                    vitae, interdum sed
+                                    tortor.
+                                </p> -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="services-section">
+                <h6 class="section-subtitle">WHAT I DO</h6>
+                <h2 class="section-title">SKILLS</h2>
+                <div class="row">
+                    <div class="media service-card col-lg-6">
+                        <div class="service-icon">
+                            <img src="assets/images/seo.svg" alt="target">
+                        </div>
+                        <div class="media-body">
+                            <h5 class="service-title">Web Development</h5>
+                            <p class="service-description">Laravel, Codeigniter, Native, Wordpress, Jquery, Javascript, Zend Framework</p>
+                        </div>
+                    </div>
+                    <div class="media service-card col-lg-6">
+                        <div class="service-icon">
+                            <img src="assets/images/graphic-design.svg" alt="bulb">
+                        </div>
+                        <div class="media-body">
+                            <h5 class="service-title">Graphic design</h5>
+                            <p class="service-description">Corel Draw, Photoshop
+                            </p>
+                        </div>
+                    </div>
+                    <div class="media service-card col-lg-6">
+                        <div class="service-icon">
+                            <img src="assets/images/seo.svg" alt="smartphone">
+                        </div>
+                        <div class="media-body">
+                            <h5 class="service-title">Desktop Development</h5>
+                            <p class="service-description">VBE, Java Netbeans
+                            </p>
+                        </div>
+                    </div>
+                    <div class="media service-card col-lg-6">
+                        <div class="service-icon">
+                            <img src="assets/images/database.svg" alt="development">
+                        </div>
+                        <div class="media-body">
+                            <h5 class="service-title">Server</h5>
+                            <p class="service-description">Centos, Debian, Windows Server
+                            </p>
+                        </div>
+                    </div>
+                    <div class="media service-card col-lg-6">
+                        <div class="service-icon">
+                            <img src="assets/images/seo.svg" alt="development">
+                        </div>
+                        <div class="media-body">
+                            <h5 class="service-title">Application</h5>
+                            <p class="service-description">Postman, Github Desktop, Git, VB, Sublime, Android Studio, Netbeans, etc
+                            </p>
+                        </div>
+                    </div>
+                   
+                    <div class="media service-card col-lg-6">
+                        <div class="service-icon">
+                            <img src="assets/images/database.svg" alt="development">
+                        </div>
+                        <div class="media-body">
+                            <h5 class="service-title">Database</h5>
+                            <p class="service-description">MySql, SQLite, Oracle, Pentaho Data Integration Tools
+                            </p>
+                        </div>
+                    </div>
+                    <div class="media service-card col-lg-6">
+                        <div class="service-icon">
+                            <img src="assets/images/app.svg" alt="smartphone">
+                        </div>
+                        <div class="media-body">
+                            <h5 class="service-title">Mobile Development</h5>
+                            <p class="service-description">Java Android Studio
+                            </p>
+                        </div>
+                    </div>
+                   
+                    <div class="media service-card col-lg-6">
+                        <div class="service-icon">
+                            <img src="assets/images/api.svg" alt="development">
+                        </div>
+                        <div class="media-body">
+                            <h5 class="service-title">API</h5>
+                            <p class="service-description">Dukcapil, RajaOngkir, Midtrans, Pejer, Google Maps, Banking API
+                            </p>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </section>
+
+            <!-- <section class="clients-section">
+                <h6 class="section-subtitle">WHAT I DO</h6>
+                <h2 class="section-title">SKILL</h2>
+                <div class="client-logos-wrapper">
+                    <div class="client-logo"><img src="assets/images/laravel.jpg" alt="logo" class="w-100"></div>
+                    <div class="client-logo"><img src="assets/images/Clients_2.svg" alt="logo" class="w-100"></div>
+                    <div class="client-logo"><img src="assets/images/Clients_3.svg" alt="logo" class="w-100"></div>
+                    <div class="client-logo"><img src="assets/images/Clients_4.svg" alt="logo" class="w-100"></div>
+                </div>
+            </section> -->
+
+            <!-- <section class="achievements-section">
+                <h6 class="section-subtitle">WHAT I DO</h6>
+                <h2 class="section-title">ACHIEVEMENTS</h2>
+                <div class="achievement-cards-wrapper">
+                    <div class="media achievement-card">
+                        <img src="assets/images/puzzle.svg" alt="puzzle" class="achievement-card-icon">
+                        <div class="media-body">
+                            <h4 class="achievement-card-title">550+</h4>
+                            <p class="achievement-card-description">COMPLETED PROJECTS</p>
+                        </div>
+                    </div>
+                    <div class="media achievement-card">
+                        <img src="assets/images/team.svg" alt="puzzle" class="achievement-card-icon">
+                        <div class="media-body">
+                            <h4 class="achievement-card-title">23K</h4>
+                            <p class="achievement-card-description">HAPPY CLIENTS</p>
+                        </div>
+                    </div>
+                    <div class="media achievement-card">
+                        <img src="assets/images/trophy.svg" alt="puzzle" class="achievement-card-icon">
+                        <div class="media-body">
+                            <h4 class="achievement-card-title">55</h4>
+                            <p class="achievement-card-description">AWARDS RECIEVED</p>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+
+            <section class="resume-section">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h6 class="section-subtitle">WHAT I DO</h6>
+                        <h2 class="section-title">ACHIEVEMENTS</h2>
+                        <ul class="time-line">
+                            <li class="time-line-item">
+                                <h6 class="time-line-item-title">1st Winner</h6>
+                                <p class="time-line-item-subtitle">IT Administrator of Pekalongan Regency  </p>
+                            </li>
+                            <li class="time-line-item">
+                                <h6 class="time-line-item-title">5 Best Participants </h6>
+                                <p class="time-line-item-subtitle">The provincial IT Administrator Competition in Central Java </p>
+                               
+                            </li>
+                            <li class="time-line-item">
+                                <h6 class="time-line-item-title">5 Best Participants</h6>
+                                <p class="time-line-item-subtitle">Pekalongan KRENOVA Contest (Mobile Apps about Geographic Information System)</p>
+                            </li>
+                            <li class="time-line-item">
+                                <h6 class="time-line-item-title">Java 1 & 2 Training Certification </h6>
+                                
+                            </li>
+                            <li class="time-line-item">
+                                <h6 class="time-line-item-title">Instructor</h6>
+                                <p class="time-line-item-subtitle">Community Service Assistant Instructor Website Management for Teaching Staff
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <h6 class="section-subtitle">WHAT I DO</h6>
+                        <h2 class="section-title">Completed Projects</h2>
+                        <ul class="time-line">
+                            <li class="time-line-item">
+                                <h6 class="time-line-item-title">Virtual Account Engine API Bank Syariah Indonesia</h6>
+                                <p class="time-line-item-subtitle">Laravel</p>
+                                <!-- <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
+                                    vitae, interdum sed
+                                    tortor.</p> -->
+                            </li>
+                            <li class="time-line-item">
+                                <h6 class="time-line-item-title">New Cash System Management</h6>
+                                <p class="time-line-item-subtitle">Laravel & Zend Framework</p>
+                                <!-- <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
+                                    vitae, interdum sed
+                                    tortor.</p> -->
+                            </li>
+                            <li class="time-line-item">
+                                <h6 class="time-line-item-title">360 Cash Management System</h6>
+                                <p class="time-line-item-subtitle">Zend Framework</p>
+                                <!-- <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
+                                    vitae, interdum sed
+                                    tortor.</p> -->
+                            </li>
+                            <li class="time-line-item">
+                                <h6 class="time-line-item-title">Pentaho Data Integration</h6>
+                                <p class="time-line-item-subtitle">IBM DB2 to Oracle</p>
+                                <!-- <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
+                                    vitae, interdum sed
+                                    tortor.</p> -->
+                            </li>
+                            <li class="time-line-item">
+                                <h6 class="time-line-item-title">POINT OF SALES</h6>
+                                <p class="time-line-item-subtitle">Visual Basic Excel</p>
+                                <!-- <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
+                                    vitae, interdum sed
+                                    tortor.</p> -->
+                            </li>
+                            <li class="time-line-item">
+                                <h6 class="time-line-item-title">WEBSITE COMPANY PROFILE </h6>
+                                <p class="time-line-item-subtitle">Laravel, Native, Wordpress</p>
+                                <!-- <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
+                                    vitae, interdum sed
+                                    tortor.
+                                </p> -->
+                            </li>
+                            <li class="time-line-item">
+                                <h6 class="time-line-item-title">WEBSITE SCHOOL </h6>
+                                <p class="time-line-item-subtitle">Laravel</p>
+                                <!-- <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
+                                    vitae, interdum sed
+                                    tortor.
+                                </p> -->
+                            </li>  <li class="time-line-item">
+                                <h6 class="time-line-item-title">GIS ABOUT MARKET </h6>
+                                <p class="time-line-item-subtitle">PHP Native With API Google Maps</p>
+                                <!-- <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
+                                    vitae, interdum sed
+                                    tortor.
+                                </p> -->
+                            </li>
+                            <li class="time-line-item">
+                                <h6 class="time-line-item-title">GIS ABOUT TOURIST ATTRACTION </h6>
+                                <p class="time-line-item-subtitle">PHP Native and Java Mobile With API Google Maps</p>
+                                <!-- <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
+                                    vitae, interdum sed
+                                    tortor.
+                                </p> -->
+                            </li>
+                           
+                            <li class="time-line-item">
+                                <h6 class="time-line-item-title">e-Raport </h6>
+                                <p class="time-line-item-subtitle">PHP Native</p>
+                                <!-- <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
+                                    vitae, interdum sed
+                                    tortor.
+                                </p> -->
+                            </li>
+                            <li class="time-line-item">
+                                <h6 class="time-line-item-title">e-Recruitment Employee</h6>
+                                <p class="time-line-item-subtitle">Laravel</p>
+                                <!-- <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
+                                    vitae, interdum sed
+                                    tortor.
+                                </p> -->
+                            </li>
+                            <li class="time-line-item">
+                                <h6 class="time-line-item-title">Task Management</h6>
+                                <p class="time-line-item-subtitle">Laravel</p>
+                                <!-- <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
+                                    vitae, interdum sed
+                                    tortor.
+                                </p> -->
+                            </li>
+                            <li class="time-line-item">
+                                <h6 class="time-line-item-title">Warehouse Stock</h6>
+                                <p class="time-line-item-subtitle">Laravel</p>
+                                <!-- <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
+                                    vitae, interdum sed
+                                    tortor.
+                                </p> -->
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="portfolio-section">
+                <h2 class="section-title">PORTFOLIO</h2>
+                
+                <div class="portfolio-wrapper">
+                    <figure class="portfolio-item hover-box">
+                        <img src="assets/images/img1.png" alt="project" class="portfolio-item-img">
+                        <figcaption class="portfolio-item-details overlay">
+                            <h5 class="portfolio-item-title">PROJECT 01</h5>
+                            <p class="portfolio-item-description">Website Internal</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="portfolio-item hover-box">
+                        <img src="assets/images/img2.png" alt="project" class="portfolio-item-img">
+                        <figcaption class="portfolio-item-details overlay">
+                            <h5 class="portfolio-item-title">PROJECT 02</h5>
+                            <p class="portfolio-item-description">Website Company Profile</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="portfolio-item hover-box">
+                        <img src="assets/images/img3.png" alt="project" class="portfolio-item-img">
+                        <figcaption class="portfolio-item-details overlay">
+                            <h5 class="portfolio-item-title">PROJECT 03</h5>
+                            <p class="portfolio-item-description">Task Management</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="portfolio-item hover-box">
+                        <img src="assets/images/img4.png" alt="project" class="portfolio-item-img">
+                        <figcaption class="portfolio-item-details overlay">
+                            <h5 class="portfolio-item-title">PROJECT 04</h5>
+                            <p class="portfolio-item-description">e-Recruitment</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="portfolio-item hover-box">
+                        <img src="assets/images/img5.png" alt="project" class="portfolio-item-img">
+                        <figcaption class="portfolio-item-details overlay">
+                            <h5 class="portfolio-item-title">PROJECT 05</h5>
+                            <p class="portfolio-item-description">Warehouse Stock Application</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="portfolio-item hover-box">
+                        <img src="assets/images/img6.png" alt="project" class="portfolio-item-img">
+                        <figcaption class="portfolio-item-details overlay">
+                            <h5 class="portfolio-item-title">PROJECT 06</h5>
+                            <p class="portfolio-item-description">Website Company Profile</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="portfolio-item hover-box">
+                        <img src="assets/images/img7.png" alt="project" class="portfolio-item-img">
+                        <figcaption class="portfolio-item-details overlay">
+                            <h5 class="portfolio-item-title">PROJECT 07</h5>
+                            <p class="portfolio-item-description">Website Company Profile</p>
+                        </figcaption>
+                    </figure>
+                    <figure class="portfolio-item hover-box">
+                        <img src="assets/images/img8.png" alt="project" class="portfolio-item-img">
+                        <figcaption class="portfolio-item-details overlay">
+                            <h5 class="portfolio-item-title">PROJECT 08</h5>
+                            <p class="portfolio-item-description">Geographic Information System</p>
+                        </figcaption>
+                    </figure>
+                </div>
+
+            </section>
+<!-- 
+            <section class="contact-section">
+                <h2 class="section-title">GET IN TOUCH</h2>
+                <p class="mb-4">If you’d like to talk about a project, my work or anything else then get in touch.</p>
+                
+                <div class="contact-cards-wrapper">
+                    <div class="contact-card">
+                        <h6 class="contact-card-title">CALL US</h6>
+                        <p class="contact-card-content">+62 857 1238 6283</p>
+                    </div>
+                    <div class="contact-card">
+                        <h6 class="contact-card-title">Email Us</h6>
+                        <p class="contact-card-content">ekoputra351@gmail.com</p>
+                    </div>
+                </div> -->
+
+                <!-- <form action="#!" class="contact-form">
+                    <div class="form-group form-group-name">
+                      <label for="name" class="sr-only">Name</label>
+                      <input type="text" name="name" id="name" class="form-control" placeholder="NAME">
+                    </div>
+                    <div class="form-group form-group-email">
+                        <label for="email" class="sr-only">Email</label>
+                        <input type="email" name="email" id="email" class="form-control" placeholder="EMAIL">
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="sr-only">Message</label>
+                        <textarea name="message" id="message" class="form-control" placeholder="MESSAGE" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary form-submit-btn">SEND MESSAGE</button>
+                </form> -->
+                <!-- <a href="https://wa.me/6285712386283"><button type="submit" class="btn btn-primary form-submit-btn">SEND MESSAGE</button></a>
+
+            </section>
+            <section class="location-section">
+                <h5 class="section-title">MY LOCATION</h5>
+
+                <div class="map-wrapper embed-responsive embed-responsive-16by9"">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.6996566304224!2d109.5719422640326!3d-6.926459144995452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e70275405aedca9%3A0xe9d93d206584d403!2sTegalontar%2C%20Kec.%20Sragi%2C%20Pekalongan%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1592294596071!5m2!1sid!2sid" idth="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" class="embed-responsive-item"></iframe>
+                </div>
+            </section> -->
+            
+            <footer>CV @ <a href="https://www.instagram.com/ekoosiswoyo" target="_blank" rel="noopener noreferrer">Eko Siswoyo</a>. Last Updated December 2023</footer>
+        </main>
+    </div>
+    <script src="assets/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="assets/vendors/@popperjs/core/dist/umd/popper-base.min.js"></script>
+    <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/live-resume.js"></script>
+    <script src="assets/vendors/entry/jq.entry.min.js"></script>
+</body>
+
+</html>

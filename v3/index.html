@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eko S</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/faviconnew.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.6.0/remixicon.css">
+    
+    <!-- <link rel="stylesheet" href="assets/css/swap.css"> -->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap">
+    <style>
+        /* Apply Open Sans to the entire website */
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+    </style>
+    <link rel="stylesheet" href="assets/css/boostrap.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media_query.css">
+</head>
+
+<body>
+    <!-- ====================================== Preloader ===================================== -->
+    <div class="wrapper">
+        <div id="loader-wrapper">
+            <div id="loader">
+                <svg viewBox="0 0 1320 300">
+                    <text x="50%" y="50%" dy=".35em" text-anchor="middle">eko</text>
+                </svg>
+            </div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+        </div>
+    </div>
+    <!-- ====================================== Preloader End ===================================== -->
+    <!-- ====================================== Background Animation ===================================== -->
+    <div id="particles-js"></div>
+    <!-- ====================================== Background Animation End ===================================== -->
+    <!-- ====================================== Cursor ===================================== -->
+    <div class="cursor"></div>
+    <!-- ====================================== Cursor End ===================================== -->
+    <!-- ====================================== Dark Light Mode ===================================== -->
+    <div class="dark_toggle">
+        <div class="ul-header">
+            <a class="mode" onclick="myFunction()" title="Toggle Mode">
+                <div class="icon-container">
+                    <i id="sunIcon" class="fa-solid fa-sun fa-spin icon"></i>
+                    <i id="moonIcon" class="fa-solid fa-moon icon hidden"></i>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- ====================================== Dark Light Mode End===================================== -->
+    <header>
+        <!-- ====================================== Fix Icon Menu ===================================== -->
+        <div class="sidebar close">
+            <ul class="nav-links icetab-container" id="icetab-container">
+                <li class="icetab current-tab">
+                    <a class="nav_menu_icon_line" href="javascript:void(0)">
+                        <img class="nav_menu_icon" src="assets/images/home_icon.svg" alt="home_icon">
+                    </a>
+                    <ul class="sub-menu blank">
+                        <li class=""><a class="link_name" href="javascript:void(0)">Home</a></li>
+                    </ul>
+                </li>
+                <li class="icetab menu-btn">
+                    <a class="nav_menu_icon_line" href="javascript:void(0)">
+                        <img class="nav_menu_icon" src="assets/images/about_icon.svg" alt="about_icon">
+                    </a>
+                    <ul class="sub-menu">
+                        <li><a class="link_name" href="javascript:void(0)">About Me</a></li>
+                    </ul>
+                </li>
+                <li class="icetab">
+                    <a class="nav_menu_icon_line" href="javascript:void(0)">
+                        <img class="nav_menu_icon" src="assets/images/resume_icon.svg" alt="resume_icon">
+                    </a>
+                    <ul class="sub-menu">
+                        <li><a class="link_name" href="javascript:void(0)">Resume</a></li>
+                    </ul>
+                </li>
+                <li class="icetab">
+                    <a class="nav_menu_icon_line" href="javascript:void(0)">
+                        <img class="nav_menu_icon" src="assets/images/services_icon.svg" alt="services_icon">
+                    </a>
+                    <ul class="sub-menu">
+                        <li><a class="link_name" href="javascript:void(0)">Services</a></li>
+                    </ul>
+                </li>
+                <li class="icetab">
+                    <a class="nav_menu_icon_line" href="javascript:void(0)">
+                        <img class="nav_menu_icon" src="assets/images/skills_icon.svg" alt="skills_icon">
+                    </a>
+                    <ul class="sub-menu blank">
+                        <li><a class="link_name" href="javascript:void(0)">Skills</a></li>
+                    </ul>
+                </li>
+                <li class="icetab">
+                    <a class="nav_menu_icon_line" href="javascript:void(0)">
+                        <img class="nav_menu_icon" src="assets/images/portfolio_icon.svg" alt="portfolio_icon">
+                    </a>
+                    <ul class="sub-menu blank">
+                        <li><a class="link_name" href="javascript:void(0)">Portfolio</a></li>
+                    </ul>
+                </li>
+                <!-- <li class="icetab">
+                    <a class="nav_menu_icon_line" href="javascript:void(0)">
+                        <img class="nav_menu_icon" src="assets/images/blog_icon.svg" alt="blog_icon">
+                    </a>
+                    <ul class="sub-menu blank">
+                        <li><a class="link_name" href="javascript:void(0)">Blogs</a></li>
+                    </ul>
+                </li> -->
+                <li class="icetab">
+                    <a class="" href="javascript:void(0)">
+                        <img class="nav_menu_icon" src="assets/images/contact_icon.svg" alt="contact_icon">
+                    </a>
+                    <ul class="sub-menu blank">
+                        <li><a class="link_name" href="javascript:void(0)">Contact</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- ====================================== Fix Icon Menu End ===================================== -->
+        <!-- ======================================= Side Menu ================================== -->
+        <div class="toggle" onclick="openNav()">
+            <img class="line-menu" src="assets/images/line-menu.png" alt="line-menu">
+        </div>
+        <div id="mySidenav" class="sidenav">
+            <div class="closebtn" onclick="closeNav()">&times;</div>
+            <center><img class="logo" src="assets/images/Ekoss.png" alt="logo" style="width:87px;height:27px;top:46px;left:100px;"></center>
+            <ul class="sidescreen_sub icetab-container" id="icetab-container2">
+                <li class="icetab current-tab" onclick="openNav()">
+                    <a class="icons2" href="javascript:void(0)">
+                        <img class="nav_menu_icon sidenav_img" src="assets/images/home_icon.svg" alt="home_icon">Home
+                    </a>
+                </li>
+                <li class="icetab" onclick="openNav()">
+                    <a class="icons2" href="javascript:void(0)">
+                        <img class="nav_menu_icon sidenav_img" src="assets/images/about_icon.svg"
+                            alt="about_icon">About Me
+                    </a>
+                </li>
+                <li class="icetab" onclick="openNav()">
+                    <a class="icons2" href="javascript:void(0)">
+                        <img class="nav_menu_icon sidenav_img" src="assets/images/resume_icon.svg"
+                            alt="resume_icon">Resume
+                    </a>
+                </li>
+                <li class="icetab" onclick="openNav()">
+                    <a class="icons2" href="javascript:void(0)">
+                        <img class="nav_menu_icon sidenav_img" src="assets/images/services_icon.svg"
+                            alt="services_icon.svg">Services
+                    </a>
+                </li>
+                <li class="icetab" onclick="openNav()">
+                    <a class="icons2" href="javascript:void(0)">
+                        <img class="nav_menu_icon sidenav_img" src="assets/images/skills_icon.svg"
+                            alt="skills_icon">Skills
+                    </a>
+                </li>
+                <li class="icetab" onclick="openNav()">
+                    <a class="icons2" href="javascript:void(0)">
+                        <img class="nav_menu_icon sidenav_img" src="assets/images/portfolio_icon.svg"
+                            alt="portfolio_icon">Portfolio
+                    </a>
+                </li>
+                <!-- <li class="icetab" onclick="openNav()">
+                    <a class="icons2" href="javascript:void(0)">
+                        <img class="nav_menu_icon sidenav_img" src="assets/images/blog_icon.svg"
+                            alt="blog_icon">Blogs
+                    </a>
+                </li> -->
+                <li class="icetab" onclick="openNav()">
+                    <a class="icons2" href="javascript:void(0)">
+                        <img class="nav_menu_icon sidenav_img" src="assets/images/contact_icon.svg"
+                            alt="contact_icon">Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- ======================================= Side Menu End ================================== -->
+    </header>
+    <div class="all_page" id="page">
+        <section class="card_section" id="card_main">
+            <div class="olivia_bio" id="oliva_details">
+                <div class="imgBox">
+                    <img class="olivia-img" src="assets/images/ideko.png" alt="olivia-img">
+                </div>
+                <div class="bio_contain">
+                    <h1 class="olivia_moswa">Eko Siswoyo</h1>
+                    <h2 class="designer font_w_font_s1 overflow-hidden"></h2>
+                    <button id="emailButtonNew" class="download_cv hire_me font_w_font_s" style="font-family: 'Open Sans', sans-serif;">
+                        <i class="ri-at-line"></i> Hire Me
+                    </button>
+                </div>
+            </div>
+            <div class="right_card_main icetab-content" id="icetab-content">
+                <!-- ======================================= Home Section ================================== -->
+                <section class="oliva-intro tabcontent tab-active" id="home">
+                    <div class="intro_main">
+                        <h2 class="intro font_w_font_s fade_up">intro</h2>
+                    </div>
+                    <h2 class="moswa font_w_font_s fade_up">Hello,</h2>
+                    <h3 class="passionate font_w_font_s1 fade_up">Experienced Fullstack Developer for 5+ years. My last project is create a Virtual Account Engine API (Laravel) for Bank Syariah Indonesia (BSI), this API will be consumed by various channels such as ATM, Mobile Banking, Teller, etc.
+                    </h3>
+                    <div class="button_circle_group">
+                        
+                        <div class="circular_text_main ">
+                             <button class="download_cv form__btn" style="font-family: 'Open Sans', sans-serif;">
+                                <i class="fa fa-arrow-circle-down"></i> Browse My Project
+                            </button>
+                            <a href="javascript:void(0)" class="down_arrow_main position-relative">
+                            </a>
+                        </div>
+                    </div>
+                    
+                </section>
+                <!-- ======================================= About Section ================================== -->
+                <section class="oliva-intro tabcontent" id="about">
+                    <div class="intro_main">
+                        <h2 class="intro font_w_font_s fade_up">about me</h2>
+                    </div>
+                    <h2 class="moswa font_w_font_s fade_up">Fullstack Developer</h2>
+                    <h3 class="passionate font_w_font_s1 fade_up">Since starting my journey as a freelance developer almost 7 years ago while still in college, I have done remote work for companies and government projects. I have a high willingness to learn and self-confidence and can understand new things quickly.
+                    </h3>
+                    <div class="about_counter fade_up">
+                        <div class="counter">
+                            <h3 class="counter2 count font_w_font_s" data-count="5">5+</h3>
+                            <h3 class="experince font_w_font_s1 ">YEARS OF EXPERIENCE</h3>
+                        </div>
+                        <div class="counter">
+                            <h3 class="counter2 count font_w_font_s" data-count="160">50+</h3>
+                            <h3 class="experince">PROJECTS COMPLETED</h3>
+                        </div>
+                    </div>
+                </section>
+                <!-- ======================================= Resume Section ================================== -->
+                <section class="oliva-intro tabcontent" id="resume">
+                    <div class="intro_main">
+                        <h2 class="intro font_w_font_s fade_up">Resume</h2>
+                    </div>
+                    <h2 class="moswa font_w_font_s fade_up">Education</h2>
+                  
+                    <div class="education position-relative education_space">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+                        <div class="small_yellow_border_main fade_up">
+                            <h3 class="bachelor font_w_font_s1">Diploma of Informatics Engineering</h3>
+                            <h4 class="university font_w_font_s1">Bandung State Polytechnic / 2015 - 2017
+                            </h4>
+                            
+                        </div>
+                    </div>
+                   
+                    <h2 class="moswa experience_main_text font_w_font_s fade_up">Experience</h2>
+                  
+                    <div class="education position-relative education_space">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+                        <div class="small_yellow_border_main fade_up">
+                            <div class="envato_group_main">
+                                <div>
+                                    <h3 class="bachelor font_w_font_s1">Programmer</h3>
+                                    <h4 class="company font_w_font_s1">PT. SQUARE GATE ONE / 2022 - Current</h4>
+                                </div>
+                            </div>
+                            <h5 class="cursus font_w_font_s1">Develop API Virtual Account Engine for Bank Syariah Indonesia, Developer Cash Management System for Bank Syariah Indonesia. Develop e-Bank Guarantee Application for Bank Tabungan Negara Indonesia. And also develop Cash Management System 360 Digital Banking.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="education position-relative education_space">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+                        <div class="small_yellow_border_main fade_up">
+                            <div class="envato_group_main">
+                                <div>
+                                    <h3 class="bachelor font_w_font_s1">Web Programmer</h3>
+                                    <h4 class="company font_w_font_s1">PT. BPR MANDIRI ARTHA ABADI / 2017 - 2022</h4>
+                                </div>
+                            </div>
+                            <h5 class="cursus font_w_font_s1">Develop various applications for Internal needs that are used to help other Departments Work.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="education position-relative">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+                        <div class="small_yellow_border_main fade_up">
+                            <div class="envato_group_main">
+                                <div>
+                                    <h3 class="bachelor font_w_font_s1">IT Engineer</h3>
+                                    <h4 class="company font_w_font_s1">PT. GRAHA KARYA INFORMASI / 2017</h4>
+                                </div>
+                            </div>
+                            <h5 class="cursus font_w_font_s1">Maintenance PC at Jiwasraya Pekalongan.
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="education position-relative">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+                        <div class="small_yellow_border_main fade_up">
+                            <div class="envato_group_main">
+                                <div>
+                                    <h3 class="bachelor font_w_font_s1">Programmer</h3>
+                                    <h4 class="company font_w_font_s1">Freelancer / 2016 - 2017</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="education position-relative">
+                        <div class="side_circle_ring fade_up">
+                            <div class="small_yellow_border">
+                                <div class="small_yellow_circle"></div>
+                            </div>
+                        </div>
+                        <div class="small_yellow_border_main fade_up">
+                            <div class="envato_group_main">
+                                <div>
+                                    <h3 class="bachelor font_w_font_s1">Technician</h3>
+                                    <h4 class="company font_w_font_s1">Lubada Jaya Computer / 2016 - 2017</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- ======================================= Services Section ================================== -->
+                <section class="oliva-intro tabcontent" id="services">
+                    <div class="intro_main">
+                        <h2 class="intro font_w_font_s fade_up">my services</h2>
+                    </div>
+                    <br>
+                   
+                    <div class="services_box_main">
+                       
+                        <div class="service_box fade_up">
+                            <img class="services_icon" src="assets/images/android.png" alt="android">
+                            <h3 class="ui_ux font_w_font_s">App Development</h3>
+                        </div>
+                        <div class="service_box fade_up">
+                            <img class="services_icon" src="assets/images/web.png" alt="web">
+                            <h3 class="ui_ux font_w_font_s">Web Development</h3>
+                        </div>
+                         <div class="service_box fade_up">
+                            <img class="services_icon" src="assets/images/web.png" alt="web">
+                            <h3 class="ui_ux font_w_font_s">Migration Database With Pentaho</h3>
+                        </div>
+                    </div>
+                </section>
+                <!-- ======================================= Skills Section ================================== -->
+                <section class="oliva-intro tabcontent" id="skill">
+                    <div class="intro_main">
+                        <h2 class="intro font_w_font_s fade_up">my skills</h2>
+                    </div>
+                    <br>
+                    <h3 class="lan_skill hard_skill font_w_font_s fade_up">Hard Skills</h3>
+                    <div class="skill_circle_main">
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="assets/images/spring.png" style="width:64px" alt="springboot">
+                            </div>
+                            <h4 class="subject font_w_font_s1">Java Springboot</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="assets/images/laravel.png" style="width:64px" alt="laravel">
+                            </div>
+                            <h4 class="subject font_w_font_s1">Laravel</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="assets/images/zend.png" style="width:64px" alt="zend">
+                            </div>
+                            <h4 class="subject font_w_font_s1">Zend Framework</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="assets/images/androidnew.png" style="width:64px" alt="android">
+                            </div>
+                            <h4 class="subject font_w_font_s1">Java Android Studio</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="assets/images/mysql.png" style="width:64px" alt="mysql">
+                            </div>
+                            <h4 class="subject font_w_font_s1">MySQL</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="assets/images/oracle.png" style="width:64px" alt="oracle">
+                            </div>
+                            <h4 class="subject font_w_font_s1">Oracle</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="assets/images/pentaho.png" style="width:64px" alt="pentaho">
+                            </div>
+                            <h4 class="subject font_w_font_s1">ETL Pentaho Data Integration</h4>
+                        </div>
+                        <div class="skill_circle fade_up">
+                            <div class="hard_skill_group">
+                                <img class="figma" src="assets/images/api.png" style="width:64px" alt="api">
+                            </div>
+                            <h4 class="subject font_w_font_s1">Banking API Integration</h4>
+                        </div>
+                    </div>
+                </section>
+                <!-- ======================================= Portfolio Section  ================================== -->
+                <section class="oliva-intro tabcontent" id="portfolio">
+                    <div class="intro_main">
+                        <h2 class="intro font_w_font_s fade_up">portfolio</h2>
+                    </div>
+                    <br>
+                    <div class="content_main">
+                        <div class="content_main1">
+                            <div class="fade_up">
+                                <div class="content_portfolio">
+                                    <div class="content-overlay"></div>
+                                    <img class="content-image" src="assets/images/bsi.jpg" alt="content_img">
+                                    <div class="content-details fadeIn-bottom">
+                                        <h3 class="content-title">Core Banking Virtual Account</h3>
+                                        <p class="content-text">Bank Syariah Indonesia</p>
+                                    </div>
+                                </div>
+                                <h4 class="project_name font_w_font_s">Core Banking Virtual Account</h4>
+                                <p class="project_name_sub font_w_font_s1">Bank Syariah Indonesia</p>
+                            </div>
+                            <div class="">
+                                <div class="content_portfolio">
+                                    <div class="content-overlay"></div>
+                                    <img class="content-image" src="assets/images/cms.png" alt="content_img">
+                                    <div class="content-details fadeIn-bottom">
+                                        <h3 class="content-title">Cash Management System</h3>
+                                        <p class="content-text">Bank Syariah Indonesia</p>
+                                    </div>
+                                </div>
+                                <h4 class="project_name font_w_font_s">Cash Management System</h4>
+                                <p class="project_name_sub font_w_font_s1">Bank Syariah Indonesia</p>
+                            </div>
+                            <div class="">
+                                <div class="content_portfolio">
+                                    <div class="content-overlay"></div>
+                                    <img class="content-image" src="assets/images/apppentaho.png" alt="content_img">
+                                    <div class="content-details fadeIn-bottom">
+                                        <h3 class="content-title">Migration Database</h3>
+                                        <p class="content-text">Bank Syariah Indonesia</p>
+                                    </div>
+                                </div>
+                                <h4 class="project_name font_w_font_s">Migration Old CMS to New CMS</h4>
+                                <p class="project_name_sub font_w_font_s1">Bank Syariah Indonesia</p>
+                            </div>
+                            <div class="">
+                                <div class="content_portfolio">
+                                    <div class="content-overlay"></div>
+                                    <img class="content-image" src="assets/images/360.png" alt="content_img">
+                                    <div class="content-details fadeIn-bottom">
+                                        <h3 class="content-title">360 Corporate Digital Banking</h3>
+                                        <p class="content-text">Espay Indonesia</p>
+                                    </div>
+                                </div>
+                                <h4 class="project_name font_w_font_s">360 Corporate Digital Banking</h4>
+                                <p class="project_name_sub font_w_font_s1">Espay Indonesia</p>
+                            </div>
+                        </div>
+                        <div class="content_main2">
+                            <div class="fade_up">
+                                 <div class="content_portfolio">
+                                    <div class="content-overlay"></div>
+                                    <img class="content-image" src="assets/images/smk.png" alt="content_img">
+                                    <div class="content-details fadeIn-bottom">
+                                        <h3 class="content-title">Company Profile</h3>
+                                        <p class="content-text">SMK 1 Sragi</p>
+                                    </div>
+                                </div>
+                                <h4 class="project_name font_w_font_s">Company Profile</h4>
+                                <p class="project_name_sub font_w_font_s1">SMK 1 Sragi</p>
+                            </div>
+                            <div class="">
+                               <div class="content_portfolio">
+                                    <div class="content-overlay"></div>
+                                    <img class="content-image" src="assets/images/bprmaacom.png" alt="content_img">
+                                    <div class="content-details fadeIn-bottom">
+                                        <h3 class="content-title">Company Profile</h3>
+                                        <p class="content-text">BPR MAA</p>
+                                    </div>
+                                </div>
+                                <h4 class="project_name font_w_font_s">Company Profile</h4>
+                                <p class="project_name_sub font_w_font_s1">BPR MAA</p>
+                            </div>
+                            <div class="">
+                                <div class="content_portfolio">
+                                    <div class="content-overlay"></div>
+                                    <img class="content-image" src="assets/images/bprmaacoid.png" alt="content_img">
+                                    <div class="content-details fadeIn-bottom">
+                                        <h3 class="content-title">Website Internal</h3>
+                                        <p class="content-text">BPR MAA</p>
+                                    </div>
+                                </div>
+                                <h4 class="project_name font_w_font_s">Website Internal</h4>
+                                <p class="project_name_sub font_w_font_s1">BPR MAA</p>
+                            </div>
+                            
+                            <div class="">
+                                <div class="content_portfolio">
+                                    <div class="content-overlay"></div>
+                                    <img class="content-image" src="assets/images/btn.png" alt="content_img">
+                                    <div class="content-details fadeIn-bottom">
+                                        <h3 class="content-title">eBG BTN</h3>
+                                        <p class="content-text">Bank Tabungan Negara</p>
+                                    </div>
+                                </div>
+                                <h4 class="project_name font_w_font_s">eBG BTN</h4>
+                                <p class="project_name_sub font_w_font_s1">Bank Tabungan Negara</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+             
+                <!-- ======================================= Blog Section  ================================== -->
+                <!-- <section class="oliva-intro tabcontent" id="blog">
+                    <div class="intro_main">
+                        <h2 class="intro font_w_font_s fade_up">Blogs</h2>
+                    </div>
+                    <h2 class="moswa font_w_font_s fade_up">Recent Blogs And Articles</h2>
+                    <h3 class="passionate font_w_font_s1 fade_up">Massa in ornare pharetra vitae et. Nunc lobortis
+                        cursus risus bibendum sed. Viverra tempus amet nibh id ipsum gravida mus.
+                    </h3>
+                    <div class="blog_section_main ">
+                        <div class="blog_img_top fade_up">
+                            <div class="blog_img trigger">
+                                <div class="blog_date">
+                                    <h4 class="date font_w_font_s">20 <span class="month">DEC</span></h4>
+                                </div>
+                            </div>
+                            <h3 class="become font_w_font_s">Become a Frontend Developer in 5 Simple Steps</h3>
+                            <p class="web_development font_w_font_s1">web development</p>
+                        </div>
+                        <div class="fade_up">
+                            <div class="blog_img blog_img2 trigger">
+                                <div class="blog_date">
+                                    <h4 class="date font_w_font_s">18 <span class="month">DEC</span></h4>
+                                </div>
+                            </div>
+                            <h3 class="become font_w_font_s">11 Best Logo Design Online & Offline Courses</h3>
+                            <p class="web_development font_w_font_s1">graphic design</p>
+                        </div>
+                        <div class="fade_up">
+                            <div class="blog_img blog_img3 trigger">
+                                <div class="blog_date">
+                                    <h4 class="date font_w_font_s">8 <span class="month">DEC</span></h4>
+                                </div>
+                            </div>
+                            <h3 class="become font_w_font_s">12 Best Branding Design Online and Offline Courses</h3>
+                            <p class="web_development font_w_font_s1">graphic design</p>
+                        </div>
+                        <div class="fade_up">
+                            <div class="blog_img blog_img4 trigger">
+                                <div class="blog_date">
+                                    <h4 class="date font_w_font_s">02 <span class="month">DEC</span></h4>
+                                </div>
+                            </div>
+                            <h3 class="become font_w_font_s">10 Content Proofreading Tips to Catch More Goofs</h3>
+                            <p class="web_development font_w_font_s1">seo</p>
+                        </div>
+                        <div class="fade_up">
+                            <div class="blog_img blog_img5 trigger">
+                                <div class="blog_date">
+                                    <h4 class="date font_w_font_s">28 <span class="month">NOV</span></h4>
+                                </div>
+                            </div>
+                            <h3 class="become font_w_font_s">Play to Strengths and Supercharge Your Business</h3>
+                            <p class="web_development font_w_font_s1">web development</p>
+                        </div>
+                        <div class="fade_up">
+                            <div class="blog_img blog_img6 trigger">
+                                <div class="blog_date">
+                                    <h4 class="date font_w_font_s">22 <span class="month">NOV</span></h4>
+                                </div>
+                            </div>
+                            <h3 class="become font_w_font_s">5 Steps to Create an Outstanding Marketing Plan</h3>
+                            <p class="web_development font_w_font_s1">digital marketing</p>
+                        </div>
+                    </div>
+                    <div id="text">
+                        <div class="view_more">
+                            <div class="fade_up">
+                                <div class="blog_img blog_img7 trigger">
+                                    <div class="blog_date">
+                                        <h4 class="date font_w_font_s">22 <span class="month">NOV</span></h4>
+                                    </div>
+                                </div>
+                                <h3 class="become font_w_font_s">5 Steps to Create an Outstanding Marketing Plan</h3>
+                                <p class="web_development font_w_font_s1">digital marketing</p>
+                            </div>
+                            <div class="fade_up">
+                                <div class="blog_img blog_img8 trigger">
+                                    <div class="blog_date">
+                                        <h4 class="date font_w_font_s">22 <span class="month">NOV</span></h4>
+                                    </div>
+                                </div>
+                                <h3 class="become font_w_font_s">5 Steps to Create an Outstanding Marketing Plan</h3>
+                                <p class="web_development font_w_font_s1">digital marketing</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="view_more_main fade_up">
+                        <button class="download_cv font_w_font_s" id="toggle">View More</button>
+                    </div>
+                </section> -->
+                <!-- ======================================= Blog Section End  ================================== -->
+                <!-- ======================================= Contact us Section  ================================== -->
+                <section class="oliva-intro tabcontent" id="contact">
+                    <div class="intro_main">
+                        <h2 class="intro fade_up">contact us</h2>
+                    </div>
+                    <h2 class="moswa fade_up">Let's Work Together!</h2>
+                    
+                    <div class="btn_message">
+                      
+                        <div class="send_message_form">
+                          <button id="emailButton" class="download_cv form__btn" style="font-family: 'Open Sans', sans-serif;">
+                                <i class="fa-regular fa-paper-plane material-icons"></i>Send Message
+                            </button>
+                        </div>
+                    </div>
+                   
+                    </h5>
+                </section>
+                <!-- ======================================= Contact us Section End ================================== -->
+            </div>
+        </section>
+        <!-- ======================================= Social Media Right Side  ================================== -->
+        <!-- <div class="social_media_main" id="social_media_main">
+            <ul class="social_media">
+                <li><a href="" target="blank">FB</a></li>
+                <li><a href="https://www.instagram.com" target="blank">IG</a></li>
+                <li><a href="https://dribbble.com" target="blank">IN</a></li>
+            </ul>
+        </div> -->
+        <!-- ======================================= Social Media Right Side End ================================== -->
+       
+    </div>
+    <!-- ======================================= Portfolio gallery ================================== -->
+   
+    <script src="assets/javascript/jquery.min.js"></script>
+    <script src="assets/javascript/magnific-popup.min.js"></script>
+    <script src="assets/javascript/progresscircle.js"></script>
+    <script src="assets/javascript/cursor.js"></script>
+    <script src="assets/javascript/bootstrap.bundle.min.js"></script>
+    <script src="assets/javascript/slick.min.js"></script>
+    <script src="assets/javascript/hexagon_animation/particles.min.js"></script>
+    <script src="assets/javascript/spider_animation/spider_animation.js"></script>
+    <script src="assets/javascript/script.js"></script>
+    <script>
+        document.getElementById("emailButton").onclick = function() {
+            window.location.href = "mailto:ekoosiswoyo@gmail.com?subject=Hello%20Eko";
+        };
+
+         document.getElementById("emailButtonNew").onclick = function() {
+            window.location.href = "mailto:ekoosiswoyo@gmail.com?subject=Hello%20Eko";
+
+        };
+    </script>
+</body>
+
+</html>
+
